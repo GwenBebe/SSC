@@ -41,7 +41,7 @@ public class Main extends JFrame {
 	 */
 	private static final long serialVersionUID = 211221818043528925L;
 	public static List<studentPanel> tallyPanels = new ArrayList<studentPanel>();
-    private static int id = 0;
+	private static int id = 0;
 	private JTextField studentName;
 	private String defaultPath = FileSystemView.getFileSystemView().getDefaultDirectory().getPath();
 	private String currentFile = null;
